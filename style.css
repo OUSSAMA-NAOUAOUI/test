@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    padding: 10px 0; /* Espacement intérieur de la barre de navigation */
+}
+
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    text-align: center; /* Centre les éléments de la liste horizontalement */
+}
+
+nav ul li {
+    display: inline; /* Affiche les éléments de la liste en ligne */
+    margin: 0 10px; /* Espacement horizontal entre les éléments de la liste */
+}
+
+nav ul li a {
+    text-decoration: none; /* Supprime la soulignement des liens */
+    color: #fff; /* Couleur du texte des liens */
+}
